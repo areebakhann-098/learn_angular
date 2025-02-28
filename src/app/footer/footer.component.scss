@@ -31,21 +31,10 @@
     margin-left: 5rem;
   }
 
-  &__social {
-    margin-top: 1rem;
-    display: flex;
-    gap: 15px;
-  }
-
-  &__social-icon {
-    color: #bbb;
-    font-size: 1.5rem;
-    transition: color 0.3s;
-
-    &:hover {
-      color: #4CAF50;
-    }
-  }
+ &__icon{
+  margin-top: 2rem;
+  margin-left: 5rem;
+ }
 
   &__links {
     display: flex;
@@ -60,6 +49,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    margin-top: 2rem;
   }
 
   &__list {
