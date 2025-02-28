@@ -1,0 +1,116 @@
+.footer {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 3rem 1rem;
+
+  &__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  &__brand {
+    max-width: 300px;
+  }
+
+  &__logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-left: 5rem;
+  }
+
+  &__copyright {
+    font-size: 0.9rem;
+    color: #bbb;
+    line-height: 1.5;
+    margin-left: 5rem;
+  }
+
+  &__social {
+    margin-top: 1rem;
+    display: flex;
+    gap: 15px;
+  }
+
+  &__social-icon {
+    color: #bbb;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #4CAF50;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__column {
+    flex: 1;
+  }
+
+  &__column-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__link {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    margin-bottom: 0.6rem;
+
+    &:hover {
+      color: #4CAF50;
+    }
+  }
+
+  &__subscribe {
+    max-width: 250px;
+    margin-right: 5rem;
+  }
+
+  &__input-group {
+    display: flex;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: #333;
+    color: #fff;
+    outline: none;
+  }
+
+  &__button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+
+
+    &__links {
+      flex-direction: row;
+      align-items: center;
+    }
+  }

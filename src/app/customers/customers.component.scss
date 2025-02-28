@@ -1,0 +1,45 @@
+.customer-section {
+    display: flex;
+    background-color: rgb(238, 249, 253);
+    align-items: center;
+    justify-content: center;
+    padding: 22px 100px;
+    gap: 3rem;
+    margin-top: 0.09rem;
+  
+    &__image {
+      width: 226px;
+      height: 226px;
+  
+    }
+  
+    &__content {
+      width: 700px;
+    }
+  
+   &__title{
+    color: #45a049;
+   }
+   .content{
+    color: gray;
+   }
+   &__logos {
+    display: flex;
+    justify-content:left;
+    gap: 1.5rem;
+   
+  }
+
+  &__frame{
+    color: #45a049;
+    width:auto;
+    font-weight: bold;
+  
+  }
+    &__text {
+     margin-top: 3rem;
+      color: gray;
+      margin-bottom: 1.5rem;
+    }
+      }
+    

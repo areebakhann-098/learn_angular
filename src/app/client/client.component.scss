@@ -1,0 +1,68 @@
+.clients {
+    text-align: center;
+    padding: 2rem ;
+  
+    &__title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    &__subtitle {
+      font-size: 1rem;
+      color: gray;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__logos {
+      display: flex;
+      justify-content: center;
+      gap: 7rem;
+    }
+  
+    &__logo {
+      width: 50px;
+      height: auto;
+
+    }
+
+  &__community {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+
+    &--grid {
+              display: flex;
+              justify-content: center;
+              gap: 2rem;
+              flex-wrap: wrap;
+            }
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &--icon {
+      width: 40px;
+      margin-bottom: 1rem;
+     
+    }
+
+    &--title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+&--subtitle{
+    margin-bottom: 3rem;
+}
+    &--text {
+      font-size: 0.9rem;
+      color: gray;
+    }
+  }
+}
+

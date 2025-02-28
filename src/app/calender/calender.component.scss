@@ -1,0 +1,46 @@
+.calender-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 3rem;
+    margin-top: 0.09rem;
+  
+    &__image {
+      max-width: 400px;
+      
+      margin-left: 10px;
+    }
+  
+    &__content {
+      max-width: 500px;
+    }
+  
+    &__title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      margin-top: 0.1rem;
+
+    }
+  
+    &__text {
+     
+      color: gray;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+  
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+
+  }

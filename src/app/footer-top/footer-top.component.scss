@@ -1,0 +1,25 @@
+.footer-top{
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgb(242, 242, 246);
+&__title{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0.1rem;
+
+}
+&__button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 2rem;
+
+    &:hover {
+      background-color: #45a049;
+    }
+}
+}
